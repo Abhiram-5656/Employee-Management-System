@@ -108,7 +108,7 @@ const Dashboard = () => {
 
     getEmployeeDetails();
     authUser.getUserData();
-  }, []);
+  }, [authUser]);
 
 //   const deleteEmployee = async (id) => {
 //   try {
