@@ -133,7 +133,7 @@ const deleteEmployee = async (id) => {
       `https://employee-management-system-ujnj.onrender.com/api/users/deleteUser/${id}`,
       {
         headers: {
-          Authorization: 'Bearer  + ${authUser.token}',
+          Authorization: `Bearer ${authUser.token}`,
         },
       }
     );
